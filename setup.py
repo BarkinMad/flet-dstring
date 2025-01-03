@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='flet_dstring',
-    version='0.1.0',
+    version='0.1.1',
     author='Barkin MADDOX',
     packages=find_packages(),
     description='DString (Dynamic String) is a Python library that provides a simple and intuitive syntax for creating richly styled text in Flet applications.',

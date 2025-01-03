@@ -5,11 +5,6 @@ from typing import Union, List, Dict, Optional, cast
 from dataclasses import dataclass
 from functools import lru_cache
 
-
-__version__ = "0.1.0"
-__all__ = ["DString", "DEFAULT_STYLE"]
-
-
 @dataclass
 class DStringConfig:
     """Configuration for DString parsing and rendering"""
